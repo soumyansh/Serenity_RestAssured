@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: testcases.CreateUserTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.803 s <<< FAILURE! - in testcases.CreateUserTest
+initializationError(testcases.CreateUserTest)  Time elapsed: 0.003 s  <<< ERROR!
+com.google.common.util.concurrent.UncheckedExecutionException: java.lang.IllegalStateException: Unable to load cache item
+Caused by: java.lang.IllegalStateException: Unable to load cache item
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class com.google.inject.internal.cglib.core.$MethodWrapper
+
